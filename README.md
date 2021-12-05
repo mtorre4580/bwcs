@@ -36,7 +36,7 @@ When you run the ganache command, copy the private keys, each user has 100 ETH t
 
 Each time to deploy the contract, you need to change the contract address in the file `contract.js` located in folter utils
 
-## Images
+## Images
 
 <div style="display: flex; justify-content:center">
     <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/master/docs/images/list.png" alt="list bets" />
