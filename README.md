@@ -39,23 +39,23 @@ Each time to deploy the contract, you need to change the contract address in the
 ## Images
 
 <div style="display: flex; justify-content:center">
-    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/main/docs/images/list.png" alt="list bets" />
+    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/master/docs/images/list.png" alt="list bets" />
 </div>
 
 <div style="display: flex; justify-content:center">
-    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/main/docs/images/creating_bet.png" alt="creating bet" />
+    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/master/docs/images/creating_bet.png" alt="creating bet" />
 </div>
 
 <div style="display: flex; justify-content:center">
-    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/main/docs/images/creating_bet_metamask.png" alt="interaction metamask" />
+    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/master/docs/images/creating_bet_metamask.png" alt="interaction metamask" />
 </div>
 
 <div style="display: flex; justify-content:center">
-    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/main/docs/images/gamble.png" alt="gamble" />
+    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/master/docs/images/gamble.png" alt="gamble" />
 </div>
 
 <div style="display: flex; justify-content:center">
-    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/main/docs/images/playing.png" alt="gamble join" />
+    <img style="max-width:100%; border-radius: 10px" src="https://raw.githubusercontent.com/mtorre4580/bwcs/master/docs/images/playing.png" alt="gamble join" />
 </div>
 
 ## Author
