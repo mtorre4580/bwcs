@@ -1,0 +1,35 @@
+{
+  "name": "bwcs",
+  "description": "Application for bet fotball word wide cup with ethereum",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile:contracts": "truffle compile",
+    "deploy:contracts": "truffle deploy",
+    "test:contracts": "truffle test",
+    "ganache": "ganache-cli --port 8545 --chainId 1337"
+  },
+  "dependencies": {
+    "@bigheads/core": "^0.3.3",
+    "@metamask/onboarding": "^1.0.1",
+    "next": "12.0.6",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.1.1",
+    "react-input-mask": "^2.0.4",
+    "styled-components": "^5.3.3",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.2",
+    "eslint": "8.4.0",
+    "eslint-config-next": "12.0.6",
+    "eslint-config-prettier": "^8.3.0",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.4.23"
+  }
+}
