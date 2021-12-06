@@ -9,7 +9,7 @@ import useCurrentAccount from "../../../hooks/useCurrentAccount";
 import Button from "../../commons/button";
 import Loader from "../../commons/loader";
 import Modal from "../../commons/modal";
-import Form from "../form";
+import FormCreate from "../form-create";
 import {
   Container,
   Title,
@@ -19,7 +19,7 @@ import {
   Item,
 } from "./components";
 
-const PageRoot = () => {
+const PageBetsRoot = () => {
   const [bets, setBets] = useState([]);
   const [loading, setLoading] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -91,7 +91,7 @@ const PageRoot = () => {
           <List>
             {bets.map((bet) => (
               <Item key={bet}>
-                <NextLink href={`bets/${bet}`} passHref>
+                <NextLink href={`detail/${bet}`} passHref>
                   <Link>
                     {bet}
                     <Image
@@ -110,10 +110,10 @@ const PageRoot = () => {
       {loading && <Loader />}
       <Toaster />
       <Modal open={isModalOpen} onClose={handleOnModal}>
-        <Form onSubmit={handleOnSubmit} />
+        <FormCreate onSubmit={handleOnSubmit} />
       </Modal>
     </>
   );
 };
 
-export default memo(PageRoot);
+export default memo(PageBetsRoot);

@@ -24,10 +24,12 @@ const TableResults = ({ gamblers }) => {
 };
 
 TableResults.propTypes = {
-  gamblers: PropTypes.shape({
-    result: PropTypes.string,
-    user: PropTypes.string,
-  }).isRequired,
+  gamblers: PropTypes.array(
+    PropTypes.shape({
+      result: PropTypes.string,
+      user: PropTypes.string,
+    }).isRequired
+  ),
 };
 
 export default memo(TableResults);

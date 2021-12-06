@@ -4,7 +4,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { Container, Label, Form, Input } from "./components";
 import Button from "../../commons/button";
 
-const Gamble = ({ onSubmit }) => {
+const FormJoin = ({ onSubmit }) => {
   const [result, setResult] = useState("");
 
   // handle submit event and callback
@@ -34,8 +34,8 @@ const Gamble = ({ onSubmit }) => {
   );
 };
 
-Gamble.propTypes = {
+FormJoin.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };
 
-export default memo(Gamble);
+export default memo(FormJoin);

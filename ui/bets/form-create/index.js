@@ -13,7 +13,7 @@ import {
 } from "./components";
 import flags from "../../../utils/flags";
 
-const Form = ({ onSubmit }) => {
+const FormCreate = ({ onSubmit }) => {
   const [teamA, setTeamA] = useState(null);
   const [teamB, setTeamB] = useState(null);
 
@@ -103,8 +103,8 @@ const Form = ({ onSubmit }) => {
   );
 };
 
-Form.propTypes = {
+FormCreate.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };
 
-export default memo(Form);
+export default memo(FormCreate);

@@ -6,9 +6,9 @@ import Bet from "../../../build/contracts/Bet.json";
 import Loader from "../../commons/loader";
 import useWeb3 from "../../../hooks/useWeb3";
 import useCurrentAccount from "../../../hooks/useCurrentAccount";
-import Gamble from "../gamble";
+import FormJoin from "../form-join";
 import { Container, ContainerFlags, ContainerTeams, Label } from "./components";
-import TableResults from "../table";
+import TableResults from "../table-results";
 
 const PageDetailRoot = ({ contractAddress }) => {
   const account = useCurrentAccount();
@@ -146,7 +146,7 @@ const PageDetailRoot = ({ contractAddress }) => {
         )}
         {balance && <Label border>Balance: {toWei(balance)} ether</Label>}
         <Label border>Gamblers: {gamblers.length}</Label>
-        {!isJoined && <Gamble onSubmit={handleOnJoin} />}
+        {!isJoined && <FormJoin onSubmit={handleOnJoin} />}
         {isJoined && <Label>You have already bet</Label>}
         {showGamblers && <TableResults gamblers={gamblers} />}
         {!showGamblers && <Label>No gamblers in this bet</Label>}
